@@ -1,4 +1,4 @@
-// Generated from /Users/19006837/IdeaProjects/language2/src/main/resources/lang.g4 by ANTLR 4.10.1
+package task2.antlr;// Generated from /Users/19006837/IdeaProjects/language2/src/main/resources/lang.g4 by ANTLR 4.10.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

@@ -1,123 +1,135 @@
-// Generated from /Users/19006837/IdeaProjects/language2/src/main/resources/lang.g4 by ANTLR 4.10.1
+package task1.antlr;// Generated from /Users/19006837/IdeaProjects/language/src/main/resources/LabeledExpr.g4 by ANTLR 4.10.1
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link langListener},
+ * This class provides an empty implementation of {@link LabeledExprListener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
-public class langBaseListener implements langListener {
+public class LabeledExprBaseListener implements LabeledExprListener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterProgram(langParser.ProgramContext ctx) { }
+	@Override public void enterProg(LabeledExprParser.ProgContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitProgram(langParser.ProgramContext ctx) { }
+	@Override public void exitProg(LabeledExprParser.ProgContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStat(langParser.StatContext ctx) { }
+	@Override public void enterPrintExpr(LabeledExprParser.PrintExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStat(langParser.StatContext ctx) { }
+	@Override public void exitPrintExpr(LabeledExprParser.PrintExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAssign(langParser.AssignContext ctx) { }
+	@Override public void enterAssign(LabeledExprParser.AssignContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAssign(langParser.AssignContext ctx) { }
+	@Override public void exitAssign(LabeledExprParser.AssignContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAdd(langParser.AddContext ctx) { }
+	@Override public void enterBlank(LabeledExprParser.BlankContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAdd(langParser.AddContext ctx) { }
+	@Override public void exitBlank(LabeledExprParser.BlankContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrint(langParser.PrintContext ctx) { }
+	@Override public void enterParens(LabeledExprParser.ParensContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrint(langParser.PrintContext ctx) { }
+	@Override public void exitParens(LabeledExprParser.ParensContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSub(langParser.SubContext ctx) { }
+	@Override public void enterShiftLeftRight(LabeledExprParser.ShiftLeftRightContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitSub(langParser.SubContext ctx) { }
+	@Override public void exitShiftLeftRight(LabeledExprParser.ShiftLeftRightContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterDiv(langParser.DivContext ctx) { }
+	@Override public void enterMulDiv(LabeledExprParser.MulDivContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitDiv(langParser.DivContext ctx) { }
+	@Override public void exitMulDiv(LabeledExprParser.MulDivContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMod(langParser.ModContext ctx) { }
+	@Override public void enterAddSub(LabeledExprParser.AddSubContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMod(langParser.ModContext ctx) { }
+	@Override public void exitAddSub(LabeledExprParser.AddSubContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMul(langParser.MulContext ctx) { }
+	@Override public void enterId(LabeledExprParser.IdContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMul(langParser.MulContext ctx) { }
+	@Override public void exitId(LabeledExprParser.IdContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterInt(LabeledExprParser.IntContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitInt(LabeledExprParser.IntContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

@@ -1,5 +1,10 @@
+package task2;
+
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
+import task2.antlr.langBaseListener;
+import task2.antlr.langLexer;
+import task2.antlr.langParser;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -84,7 +89,7 @@ public class MyListener extends langBaseListener {
 
     public static void main(String[] args) {
         try {
-            org.antlr.v4.runtime.CharStream input = CharStreams.fromFileName("/Users/19006837/IdeaProjects/language2/src/main/resources/test.lang");
+            org.antlr.v4.runtime.CharStream input = CharStreams.fromFileName("/Users/19006837/IdeaProjects/language2/src/main/resources/task2/test.lang");
             langLexer lexer = new langLexer(input);
             langParser parser = new langParser(new CommonTokenStream(lexer));
             parser.addParseListener(new MyListener());
