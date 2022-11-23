@@ -1,0 +1,7 @@
+begin
+	let a be 4
+	let b be 6
+
+    mul a to b
+    print b
+end
